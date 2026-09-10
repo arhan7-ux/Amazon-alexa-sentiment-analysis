@@ -1,2 +1,34 @@
-# Amazon-alexa-sentiment-analysis
-Developed a machine learning-based sentiment analysis system to analyze customer reviews of Amazon Alexa devices and classify user feedback into positive, negative, or neutral sentiments. Performed data preprocessing, text cleaning, exploratory data analysis, and feature extraction using Natural Language Processing (NLP) techniques. 
+# Amazon-Alexa-Reviews
+
+## Watch Video: https://www.youtube.com/watch?v=6A2w-KYG4Ko
+
+## HOW TO RUN
+
+Step 1: Clone the repository
+```
+git clone https://github.com/Surbhit01/Amazon-Alexa-Reviews.git
+```
+
+Step 2: Open the cloned repository and create a conda environment. Activate the new environment
+```
+conda create -n amazonreview python=3.10
+```
+```
+conda activate amazonreview
+```
+
+Step 3: Install the requirements file
+```
+pip install -r requirements.txt
+```
+
+Step 4: Run the app
+```
+flask --app api.py run
+```
+
+Step 5: The app will run on port 5000. 
+```
+localhost:5000
+```
+## NOTE: The issue raised is fixed, please download the .zip folder and run it.
